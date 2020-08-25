@@ -15,6 +15,22 @@ desired_capacity            =   "1"
 max_size                    =   "1"
 min_size                    =   "1"
 
+ subnet_ids = [
+    "subnet-0fc82966488607a83", 
+    "subnet-031615db913a91eb2", 
+    "subnet-01e29a90d1b87ab0a"
+    ]
+security_group_name = "db"
+allowed_hosts = [
+    "0.0.0.0/0"
+    ]
+    db_name = "dbname"
+    engine = "aurora"
+    engine_version = "5.6.10a"
+    instance_class = "db.t2.micro"
+    username = "foo"
+    password = "foobarbaz"
+    publicly_accessible = false
 
 tags    =   {
     Name                    =   "Team2_VPC"
