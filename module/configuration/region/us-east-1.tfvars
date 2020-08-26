@@ -16,9 +16,9 @@ max_size                    =   "1"
 min_size                    =   "1"
 
  subnet_ids = [
-    "subnet-0fc82966488607a83", 
-    "subnet-031615db913a91eb2", 
-    "subnet-01e29a90d1b87ab0a"
+    "subnet-03ad3c9fbf0fcd29d", 
+    "subnet-0826d18c667994fae", 
+    "subnet-0027f57dab1baa5cd"
     ]
 security_group_name = "db"
 allowed_hosts = [
